@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "product": "供应商评分口径",
+  "source_context": "当前 GitHub 账号内通过正式容器验证的 Python 后端项目群",
+  "actors": [
+    "采购计划员",
+    "供应商",
+    "质量工程师",
+    "仓储管理员"
+  ],
+  "states": [
+    "草拟",
+    "待确认",
+    "已下达",
+    "履行中",
+    "已关闭"
+  ],
+  "invariants": [
+    "评分口径版本",
+    "数据来源快照",
+    "封账更正流程",
+    "逐项得分解释"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "0910032-020-A",
+      "actor": "采购计划员",
+      "state": "草拟"
+    },
+    {
+      "case_id": "0910032-020-B",
+      "actor": "仓储管理员",
+      "state": "待确认"
+    }
+  ],
+  "tags": [
+    "supplier-rating",
+    "score-versioning"
+  ]
+}

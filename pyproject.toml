@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-0910032-020"
+version = "0.1.0"
+description = "供应商评分口径的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
